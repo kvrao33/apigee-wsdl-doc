@@ -9,7 +9,6 @@
      ```
 
 2. Install Maven:
-   - Open the "wsdl2apigee" folder in your terminal.
    - Install Maven with this command:
      ```
      mvn install
@@ -20,6 +19,10 @@
    - Open the `.m2` folder, then navigate to the "repository" folder.
    - Inside "repository," open the "wsdl2apigee" folder.
    - Go into the "1.0.0" folder.
+   - Use this command to open the folder in your terminal:
+    ```
+    cd ~/.m2/repository/com/apigee/wsdl2apigee/1.0.0
+    ```
 
 4. Run the Command:
    - To generate the API, execute this command with your WSDL URL (replace `<wsdl URL or Path>` with the client's provided URL):
@@ -37,7 +40,3 @@
 
 6. Upload to Apigee:
    - Upload the generated zip folder/bundle directly to Apigee, and you can rename it as needed.
-
----
-
-You can copy and paste this plain text content into your GitHub repository's README file.
